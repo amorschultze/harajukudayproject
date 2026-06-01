@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cyber diary</title>
+
+  <style>
+    /* =========================
+       Y2K / old webcore blog page
+       Single-file HTML + CSS
+       ========================= */
+       
+@font-face {
+  font-family: 'Pixelated';
+  src: url('https://file.garden/Z1LmxrbjjD-R7xuV/Pixeled.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rainyhearts';
+  src: url('https://file.garden/Z1LmxrbjjD-R7xuV/rainyhearts.ttf') format('truetype');
+}
+
+
+    :root{
+      --bg1:#e0e0e0;
+  --bg2:#cfcfcf;
+
+  --ink:#1a1a1a;
+  --muted:#555;
+
+  --hot:#ff4fd8;
+  --aqua:#00bfb3;
+  --lime:#7bd600;
+  --sun:#e6c400;
+  --violet:#7a6cff;
+
+  /* WINDOWS = GRAY */
+  --panel: rgba(210, 210, 210, 0.95);
+  --panel2: rgba(190, 190, 190, 0.95);
+
+  --line: rgba(0,0,0,0.25);
+
+  /* SQUARE CORNERS */
+  --radius: 0px;
+
+  --shadow: 0 6px 16px rgba(0,0,0,.25);
+}
+
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      color:var(--ink);
+      font: 15px "Rainyhearts", "Tahoma", system-ui, sans-serif;
+      letter-spacing: .1px;
+       background-image: url("https://i.pinimg.com/736x/42/23/fa/4223faacabe960bbc0831d4ef03cc744.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; /* optional */
+}
+
+    }
+
+    a{
+      color: var(--aqua);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(63,255,230,.55);
+    }
+    a:hover{
+      color: var(--sun);
+      border-bottom-color: rgba(255,232,107,.9);
+      text-shadow: 0 0 10px rgba(255,232,107,.35);
+    }
+
+    .wrap{
+      position:relative;
+      z-index:1;
+      max-width: 1080px;
+      margin: 28px auto 60px;
+      padding: 0 14px;
+    }
+
+    /* top bar */
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding: 10px 14px;
+      border-radius: 0px;
+      background: rgba(190, 190, 190, 0.95);
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+      backdrop-filter: blur(8px);
+    }
+    .status{
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      font-size:12px;
+      color:white);
+    }
+    .pill{
+      padding: 4px 10px;
+      border-radius:999px;
+      border:1px solid rgba(170,178,255,.25);
+      background: rgba(15,18,45,.55);
+      color: white;
+    }
+    .lights{
+      display:flex;
+      gap:6px;
+      align-items:center;
+    }
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      box-shadow: 0 0 10px rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.2);
+    }
+    .dot.pink{ background: rgba(255,79,216,.9); box-shadow: 0 0 14px rgba(255,79,216,.45); }
+    .dot.aqua{ background: rgba(63,255,230,.9); box-shadow: 0 0 14px rgba(63,255,230,.45); }
+    .dot.lime{ background: rgba(200,255,74,.9); box-shadow: 0 0 14px rgba(200,255,74,.35); }
+
+    /* header */
+    header{
+      margin-top: 16px;
+      border-radius: var(--radius);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .banner{
+      padding: 18px 18px 16px;
+      background:
+        rgba(210, 210, 210, 0.95);
+      position:relative;
+    }
+    .banner::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        repeating-linear-gradient(135deg,
+          rgba(255,255,255,.08) 0px,
+          rgba(255,255,255,.08) 1px,
+          transparent 1px,
+          transparent 9px
+        );
+      opacity:.20;
+      pointer-events:none;
+    }
+    .site-title{
+      position:relative;
+      z-index:1;
+      display:flex;
+      align-items:baseline;
+      gap:12px;
+      flex-wrap:wrap;
+      color: black;
+    }
+    .site-title h1{
+      margin:0;
+      font-size: 28px;
+      letter-spacing: .6px;
+      text-transform: lowercase;
+      text-shadow:
+        0 0 18px rgba(255,79,216,.25),
+        0 0 18px rgba(63,255,230,.18);
+    }
+    .tagline{
+      margin:0;
+      color: black;
+      font-size: 15px;
+      opacity:.95;
+      position:relative;
+      z-index:1;
+    }
+
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      padding: 10px 14px;
+      background: rgba(190, 190, 190, 0.95);
+      border-top: 1px solid rgba(255,255,255,.10);
+      
+    }
+    nav a{
+      border: 1px solid rgba(160,175,255,.22);
+      background: rgba(15,18,45,.55);
+      padding: 7px 10px;
+      border-radius: 12px;
+      text-decoration:none;
+      font-size: 13px;
+      color: white;
+      box-shadow: 0 10px 22px rgba(0,0,0,.22);
+    }
+    nav a:hover{
+      color: #090a1e;
+      background: linear-gradient(90deg, rgba(63,255,230,.9), rgba(255,232,107,.9));
+      border-color: rgba(255,255,255,.35);
+      text-shadow:none;
+    }
+
+    /* layout */
+    .grid{
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      margin-top: 16px;
+      align-items:start;
+    }
+
+    /* panels */
+    .panel{
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      backdrop-filter: blur(10px);
+    }
+    .panel .head{
+      padding: 10px 12px;
+      background: rgba(0,0,0,.22);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:8px;
+      font-size: 15px;
+      color: black;
+      text-transform: lowercase;
+    }
+    .panel .body{
+      padding: 12px;
+      color: black;
+    }
+
+    /* sidebar widgets */
+    .widget + .widget{ margin-top: 14px; }
+
+    .mini{
+      font-size: 15px;
+      color: black;
+    }
+
+    .blink{
+      animation: blink 1.3s steps(1,end) infinite;
+      color: var(--sun);
+      text-shadow: 0 0 10px rgba(255,232,107,.35);
+    }
+    @keyframes blink{ 50%{ opacity:.25; } }
+
+    .badge-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:10px;
+    }
+    .badge{
+      font-size: 11px;
+      padding: 6px 8px;
+      border-radius: 10px;
+      background: rgba(9,10,30,.6);
+      border: 1px solid rgba(160,175,255,.22);
+      color: rgba(232,236,255,.92);
+      white-space:nowrap;
+    }
+
+    .divider{
+      height:1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent);
+      margin: 10px 0;
+    }
+
+    .list{
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:grid;
+      gap:8px;
+    }
+    .list a{
+      display:block;
+      padding: 8px 10px;
+      border-radius: 12px;
+      background: rgba(9,10,30,.55);
+      border: 1px solid rgba(160,175,255,.18);
+      color: rgba(232,236,255,.95);
+    }
+    .list a:hover{
+      background: rgba(255,79,216,.18);
+      border-color: rgba(255,79,216,.28);
+      color: var(--sun);
+    }
+
+    /* post */
+    article{
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      backdrop-filter: blur(10px);
+    }
+    .post-top{
+      padding: 14px 14px 10px;
+      background:
+        radial-gradient(800px 120px at 20% 0%, rgba(255,79,216,.22), transparent 60%),
+        radial-gradient(800px 140px at 80% 10%, rgba(63,255,230,.18), transparent 60%),
+        rgba(0,0,0,.20);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+    .post-title{
+      margin:0;
+      font-size: 22px;
+      letter-spacing: .3px;
+      text-transform: lowercase;
+      text-shadow: 0 0 18px rgba(182,140,255,.22);
+    }
+    .meta{
+      margin-top:6px;
+      font-size: 12px;
+      color: black;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+    }
+    .tag{
+      padding: 4px 8px;
+      border-radius: 999px;
+      border:1px solid rgba(160,175,255,.20);
+      background: rgba(9,10,30,.55);
+      color: rgba(232,236,255,.9);
+      font-size:11px;
+    }
+
+    .post-body{
+      padding: 14px;
+    }
+    .post-body p{ margin: 0 0 12px; }
+    .post-body h2{
+      margin: 18px 0 8px;
+      font-size: 16px;
+      text-transform: lowercase;
+      color: black;
+      text-shadow: 0 0 14px rgba(255,232,107,.20);
+    }
+    .post-body blockquote{
+      margin: 14px 0;
+      padding: 10px 12px;
+      background: rgba(191, 191, 189);
+      border-radius: 12px;
+      color: black;
+    }
+
+    .pixel-frame{
+      border: 2px solid rgba(255,255,255,.16);
+      border-radius: 16px;
+      padding: 10px;
+      background: rgba(191, 191, 189);
+      margin: 14px 0;
+    }
+
+    /* faux "image" placeholder */
+    .hero{
+ width: 100%;
+  aspect-ratio: 16 / 9;   /* modern, clean */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+  margin-bottom: 14px;
+    }
+    
+
+
+    /* comments */
+    .comment{
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(9,10,30,.55);
+      border: 1px solid rgba(160,175,255,.18);
+      margin-top: 10px;
+    }
+    .comment .who{
+      font-size: 12px;
+      color: rgba(232,236,255,.85);
+      display:flex;
+      gap:8px;
+      align-items:center;
+      margin-bottom:6px;
+    }
+    .comment .who .spark{
+      color: var(--hot);
+      text-shadow: 0 0 10px rgba(255,79,216,.35);
+    }
+    footer{
+      margin-top: 16px;
+      padding: 14px;
+      text-align:center;
+      background: rgba(191, 191, 189);
+      color: black;
+      font-size: 12px;
+    }
+
+    /* responsive */
+    @media (max-width: 900px){
+      .grid{ grid-template-columns: 1fr; }
+      .topbar{ border-radius: 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="topbar">
+      <div class="status">
+        <span class="pill">status: <span class="blink">online</span></span>
+        <span class="pill">mood: nostalgic</span>
+        <span class="pill">last updated: 12.26.2004</span>
+      </div>
+      <div class="lights" aria-hidden="true">
+        <span class="dot pink"></span>
+        <span class="dot aqua"></span>
+        <span class="dot lime"></span>
+      </div>
+    </div>
+
+    <header>
+      <div class="banner">
+        <div class="site-title">
+          <h1>✶ cyber diary ✶</h1>
+          <p class="tagline">a blog of my uncensored ideas</p>
+      </div>
+
+      <nav>
+        <a href="#">home</a>
+        <a href="#">blog</a>
+        <a href="#">archive</a>
+        <a href="#">about</a>
+        <a href="#">links</a>
+        <a href="#">rss</a>
+      </nav>
+    </header>
+
+    <main class="grid">
+
+      <!-- SIDEBAR -->
+      <aside>
+        <section class="panel widget">
+          <div class="head">
+            <span>about this page</span>
+            <span>★</span>
+          </div>
+          <div class="body">
+            <div class="mini">
+              welcome to your blog posts playground. you can swap the text, fonts, colors, links, and really anything you want. add your own banner images + badges.
+              this template is made to feel like an early 2000s diary page.
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="badge-row">
+              <span class="badge">ideas</span>
+              <span class="badge">passions</span>
+              <span class="badge">dreams</span>
+              <span class="badge">diary entries</span>
+              <span class="badge">process</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel widget">
+          <div class="head">
+            <span>recent posts</span>
+            <span>⌁</span>
+          </div>
+          <div class="body">
+            <ul class="list">
+              <li><a href="#">how to romanticize your day to day life</a></li>
+              <li><a href="#">my aesthetic unfiltered</a></li>
+              <li><a href="#">notes from my browser history</a></li>
+              <li><a href="#">my cabinet of curiosities</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel widget">
+          <div class="head">
+            <span>linkroll</span>
+            <span>✦</span>
+          </div>
+          <div class="body">
+            <ul class="list">
+              <li><a href="#">main site</a></li>
+              <li><a href="#">guestbook</a></li>
+              <li><a href="#">shrines</a></li>
+              <li><a href="#">graphics</a></li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+
+      <!-- BLOG POST -->
+      <article>
+        <div class="post-top">
+          <h2 class="post-title">ideas for analog marketing</h2>
+          <div class="meta">
+            <span>posted: <strong>december 26, 2004</strong></span>
+            <span class="tag">diary entries</span>
+            <span class="tag">process</span>
+            <span class="tag">ideas</span>
+          </div>
+        </div>
+
+        <div class="post-body">
+          <div class="hero" style="background-image:url('https://i.pinimg.com/1200x/dc/5e/38/dc5e386c39146c06d7790a16327e0299.jpg')"></div>
+
+          <div class="pixel-frame">
+            <p>
+              this is where your post begins. this blog is your time capsule, dont forget it.
+            </p>
+          </div>
+
+          <h2>section header</h2>
+          <p>
+            make your blog a small museum of who you are as a person and capture all your interests and passions at this moment in time.
+          </p>
+
+          <blockquote>
+            “the internet is a haunted mall of memories eternalized for all to see, but often lost to a sea of endless content."
+          </blockquote>
+
+          <p>
+            add images, dividers, lists, and whatever else you want. this template is meant to be a chassis you can customize.
+          </p>
+
+          <h2>mini list</h2>
+          <ul>
+            <li>swap the title + tagline</li>
+            <li>replace “last updated” with your real date</li>
+            <li>add any banner image you want in the hero div class</li>
+            <li>turn the sidebar into your personal dashboard</li>
+          </ul>
+
+
+
+    </main>
+
+    <footer>
+      <div>2004 cyber diary <a href="#">back to top</a></div>
+    </footer>
+
+  </div>
+</body>
+</html>
+
