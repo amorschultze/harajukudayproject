@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<div class="container-fluid" style="background:none;padding:20px;max-width:590px;margin:30px auto 0px;">
+    <div class="row no-gutters">
+        <div class="col-md-3 justify-content-center">
+            <!-- main icon -->
+            <div class="card" style="background:url(
+
+            https://64.media.tumblr.com/1b1937c76767f266133d099535adfeb0/b75ab3cfb230ee9e-07/s500x750/733bdecf26581032f1c27d6e3ff29d64c4d126e1.jpg
+    
+            );background-position:center;background-size:cover;width:130px;height:130px;border:4px solid #FF66BC;border-radius:100px;"></div>
+        </div>
+    
+        <div class="col-md-9 p-2">
+            <div class="card w-100 p-3" style="background:#FFF;border-radius:90px 90px 90px 0px;border:4px solid #FF66BC;">
+                <p class="text-center" style="color:#A2337D;font-size:15px;letter-spacing:0.4px;font-weight:500;">
+                Uwawa~! ☆ Isn't that just wonderhoy!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="card p-2" style="border:4px solid #FF66BC;border-radius:0px;background:#FFFFFF;margin-top:10px;">
+    <div class="row no-gutters">
+        <div class="col-md-9 p-2">
+            <!-- name, age, pronouns -->
+            <h3 class="text-uppercase text-center m-1" style="font-size:20px;color:#A2337D;font-weight:600;font-family:arial;">NAME ! AGE ! PRONOUNS !</h3>
+            <div class="card m-2 p-2" style="background:none;height:150px;border:2px solid #FF66BC;border-radius:0px;overflow:auto;">
+                <!-- intro box -->
+                <p class="text-center" style="color:#A2337D;font-size:14px;letter-spacing:0.4px;"> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. phasellus et rutrum eros. sed maximus a diam sit amet tincidunt. proin nulla nisi, sodales ut ultricies eu, mollis vitae nulla. nulla facilisi. nam id turpis iaculis, facilisis sem et, tristique turpis. morbi ut varius lorem. proin quis ex id dolor aliquet auctor.
+                </p>
+            </div>
+            <center>
+                <!-- blinkies, feel free to remove as you please or use something different like stamps, but i can't guarantee everything will be centered as properly! ;; --->
+                <img src="
+                
+                    https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65c61b78-1886-4f6e-bf9d-c1e26cdde70a/dd5ex41-eb1a3d7f-cb3b-4a1a-b856-f701d9131b2c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY1YzYxYjc4LTE4ODYtNGY2ZS1iZjlkLWMxZTI2Y2RkZTcwYVwvZGQ1ZXg0MS1lYjFhM2Q3Zi1jYjNiLTRhMWEtYjg1Ni1mNzAxZDkxMzFiMmMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EVVfG0CAHxLT1VtYAGu8Jlu-5kiV0EfpfdYYP6DMkvU
+                    
+                    ">
+                <img src="
+                
+                    https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65c61b78-1886-4f6e-bf9d-c1e26cdde70a/dd75r16-4a041365-842d-415e-8279-1d5e64580a0f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY1YzYxYjc4LTE4ODYtNGY2ZS1iZjlkLWMxZTI2Y2RkZTcwYVwvZGQ3NXIxNi00YTA0MTM2NS04NDJkLTQxNWUtODI3OS0xZDVlNjQ1ODBhMGYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.10mFv2mcW4EaTt5ekg0j3Un415AzIR7WPYCJba-QQwo
+                    
+                    ">
+                <img src="
+                
+                    https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65c61b78-1886-4f6e-bf9d-c1e26cdde70a/dd75qya-57dfb33a-1f2d-4611-8e83-0fd1749bbdf4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY1YzYxYjc4LTE4ODYtNGY2ZS1iZjlkLWMxZTI2Y2RkZTcwYVwvZGQ3NXF5YS01N2RmYjMzYS0xZjJkLTQ2MTEtOGU4My0wZmQxNzQ5YmJkZjQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ocyYztWVU2sCYwQ8qDjoshknk-rK-mFdQ_nOnrH6dvo
+                    
+                    ">
+                <img src="
+                
+                    https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65c61b78-1886-4f6e-bf9d-c1e26cdde70a/dd85bhe-f7c25df5-a07e-4dff-bebf-262bc8587987.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY1YzYxYjc4LTE4ODYtNGY2ZS1iZjlkLWMxZTI2Y2RkZTcwYVwvZGQ4NWJoZS1mN2MyNWRmNS1hMDdlLTRkZmYtYmViZi0yNjJiYzg1ODc5ODcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wc4Wc0FKhkQ0L8XwCJSSmL246pMsprRbmp7AcB76kZc
+                    
+                    ">
+                <br>
+                <a class="btn mt-2" style="background:#FF66BC;font-weight:600;font-family:arial;font-size:12px;color:#FFFFFF;border-radius:0px;" href="LINKHERE">commissions</a>
+                <a class="btn mt-2" style="background:#FF66BC;font-weight:600;font-family:arial;font-size:12px;color:#FFFFFF;border-radius:0px;" href="LINKHERE">art trades</a>
+                <a class="btn mt-2" style="background:#FF66BC;font-weight:600;font-family:arial;font-size:12px;color:#FFFFFF;border-radius:0px;" href="LINKHERE ">requests</a>
+            </center>
+        </div>
+    
+        <div class="col-md-3"><center>
+            <!-- char/user 1, be mindful of the ' when replacing the image! if you want to remove the overlay, highlight "background-blend-mode.." all the way until the ; and then delete! -->
+            <span>
+                <div class="card border-0 m-1" style="height:90px;width:90px;background-color:#FF66BC;background-size:cover;background-blend-mode:screen;border-radius:100px;background-image:url(
+                
+                'https://64.media.tumblr.com/6abb9ecb64d81d9a318e8ea9f2b6f02a/1365a3bbf718b1f7-85/s540x810/1b19ee2bef0b9ecffb09b63821fb7f448de45b69.jpg'
+                
+                );">
+                <a class="h-100 btn btn-outline-warning" style="font-size:17px;border-radius:100px;border:3px solid #FF66BC;" href="CHAR_OR_USER_URL"></a>
+                </div>
+            </span>
+            
+            <!-- char/user 2, be mindful of the ' when replacing the image! -->
+            <span>
+                <div class="card border-0 m-1" style="height:90px;width:90px;background-color:#FF66BC;background-size:cover;background-blend-mode:screen;border-radius:100px;background-image:url(
+                
+                'https://64.media.tumblr.com/d101a8afbce19c1f41ab2e17637221e6/8dde0d398de25e50-8f/s500x750/63e0acaa4286b3d50a7108d67516f972af66f168.jpg'
+                
+                );">
+                <a class="h-100 btn btn-outline-success" style="font-size:17px;border-radius:100px;border:3px solid #FF66BC;" href="CHAR_OR_USER_URL"></a>
+                </div>
+            </span>
+            
+            <!-- char/user 3, be mindful of the ' when replacing the image! -->
+            <span>
+                <div class="card border-0 m-1" style="height:90px;width:90px;background-color:#FF66BC;background-size:cover;background-blend-mode:screen;border-radius:100px;background-image:url(
+                
+                'https://64.media.tumblr.com/70a54b941d9c8aa1c19e88fd057fd42c/b7d7b208e43ad5a5-59/s500x750/9594adfaea6744b778b5a2b74d4091503f70259d.jpg'
+                
+                );">
+                <a class="h-100 btn btn-outline-danger" style="font-size:17px;border-radius:100px;border:3px solid #FF66BC;" href="CHAR_OR_USER_URL"></a>
+                </div>
+            </span>
+        </center></div>
+    </div>
+    </div>
+    
+    <!-- credit, don't remove pls! -->
+    <h3 class="text-lowercase" style="font-size:13px;letter-spacing:1px;color:#FFFFFF;" align="right">
+         <a class="d-block text-muted mt-1" href="18556161" style="font-size:0.6em;">code by dogboy <i class="fad fa-rainbow"></i></a>
+    </h3>
+</div>
