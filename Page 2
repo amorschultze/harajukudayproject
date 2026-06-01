@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div class="mx-auto" style="max-width: 385px;">
+  <div style="background-image: url('https://gifcity.carrd.co/assets/images/gallery46/b8930f7e.gif?v=a5c82efa'); height: 25px;"></div>
+  <div class="row no-gutters">
+      
+         <!-- icon -->
+      
+    <div class="col-5">
+      <div style="height:160px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #F4CFF0;
+        background-image:url(https://cdn.discordapp.com/attachments/1055590241647468594/1069651660751777913/image.png);
+        background-size:160px;
+        "> </div>
+    </div>
+    
+    <!-- like/dislike -->
+    <div class="col">
+      <div style="height:130px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #F4CFF0;
+        background-color: #FFFEFF;
+        background-size:160px;
+        overflow-x: hidden;
+        ">
+          
+          <div class="p-2" style="color:#C847D0;">
+          <span style="font-family: ms gothic; font-size: 12px; color:C847D0;"> 
+          
+          <span style="background:#F2D3F3; color:#C847D0"><b>:D</b></span> 
+          : like , <i>like</i> , <b>like</b> , like , like , <b>like</b> <br>
+          
+          <br>
+          
+          <span style="background:#F2D3F3; color:#C847D0"><b>:(</b></span> 
+          : dislike , <i>dislike</i> , <b>dislike</b> , dislike , dislike , <b>like</b> (scrolls)
+          </span>
+          </div>
+          </div>
+          
+          <div style="height:30px;
+          border-width: 3px;
+        border-style: solid;
+        border-color: #F4CFF0;
+        background-image:url(https://gifcity.carrd.co/assets/images/gallery22/efdc581d.gif?v=a5c82efa);
+        background-size:220px;"></div>
+          
+          </div>
+          
+            <div class="row no-gutters">
+      
+         <!-- abt -->
+      
+    <div class="col-5">
+      <div style="height:140px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #F4CFF0;
+        background-color:#FFFEFF;
+        overflow-x: hidden
+        "> 
+        
+        <div class="p-2" style="color:#C847D0;">
+          <span style="font-family: ms gothic; font-size: 14px; color:C847D0;"> 
+          
+          <img src="https://file.garden/ZFsH6ihvAk-Bo1x_/calicode%20prfile/06383_retcon.gif" style="height:14px"> 
+          <b><span>@</span>username</b> 
+          <br> name / name &nbsp; <b>16</b>
+          <br> prn / prn / prn <a href="https://en.pronouns.page/" style="color:#B163E6">(+)</a>
+          <br><b>infos</b> .. infos
+          <br>
+          <a href="URLHERE" style="color:#B163E6">twt</a> / <a href="URLHERE" style="color:#B163E6">tmblr</a> / <a href="URLHERE" style="color:#B163E6">link</a>
+          
+          
+          </span>
+          </div>
+          </div>
+    </div>
+    
+    <!-- abt -->
+    <div class="col">
+      <div style="height:140px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #F4CFF0;
+        background-color: #FFFEFF;
+        background-size:160px;
+        overflow-x: hidden;
+        ">
+          
+          <div class="p-2" style="color:#C847D0;">
+          <span style="font-family: ms gothic; font-size: 12px; color:C847D0;"> 
+          
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.
+         
+          </span>
+          </div>
+          </div>
+      
+
+          
+
+    </div>
+  </div>
+</div>
+
+
+<div align="right"> <a href="https://toyhou.se/calicodes" style="color:#B163E6"> <i class="fa-solid fa-code fa-2xs"></i> </a> </div>
