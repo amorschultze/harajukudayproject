@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--==========
+[ MAIN BOX ]
+===========-->
+<div class="row justify-content-center" style="font-family:ms gothic; font-size:1rem; margin-top:75px">
+<div class="col-xl-9">
+<div class="card" style="background:#6ac4ff; color:black;  border-radius:15px; border:3px solid #282525; padding:5px;">
+<div class="row">
+    
+ 
+ 
+    <!--==========
+    [ LEFT COLUMN ]
+    ===========-->
+    <div class="col-lg-3 pr-lg-1">
+ 
+ 
+        <!--==========
+        [ BULLETINS ]
+        ===========-->
+        <div class="card mt-2" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+    
+        <p class="text-left" style="font-size:1.1rem; "><img src="https://i.imgur.com/n8UkyaR.gif" class="mx-1 mb-2">BULLETINS</p>
+        <div class="my-1" style="border-bottom:double black;"></div>
+        <div class="py-2 pr-3" style="overflow-y:auto; overflow-x:hidden; height:250px; font-size:.9rem"><ul class="fa-ul mb-2" style="margin: 0px 0px 0px 12px;">
+                
+                
+                <li class="mb-2"><i class="mr-1  fal fa-thumbtack fa-fw"></i>
+                <a style="color:#6ac4ff" href="PINNED_POST_LINK">PINNED POST</a></li>
+                
+                
+                <li class="mb-2"><i class="mr-1 ">00.00</i> Update / Announcement of some kind goes here !</li>
+                
+                <li class="mb-2"><i class="mr-1 ">00.00</i> Update / Announcement of some kind goes here !</li>
+                
+                <li class="mb-2"><i class="mr-1 ">00.00</i> Update / Announcement of some kind goes here !</li>
+                
+                <li class="mb-2"><i class="mr-1 ">00.00</i> Update / Announcement of some kind goes here !</li>
+                
+        
+        </ul></div><span><hr class="my-1 mx-2"></span>
+        <div class="my-1" style="border-bottom:double black;"></div>
+        
+        </div>
+        <!--==========
+        [ END BULLETINS ]
+        ===========-->
+ 
+ 
+    
+        <!--==========
+        [ LINKS ]
+        ===========-->
+        <div class="card mt-2 text-left mb-lg-0 mb-sm-5" style="font-size:.9rem; background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <p class="text-left" style="font-size:1.1rem; "><img src="https://i.imgur.com/PXL2Pvp.gif" class="mx-1 mb-2">LINKS</p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        <div class="" style="overflow-y:auto; overflow-x:hidden; height:175px; font-size:.9rem">
+                
+                
+            <a href="COMMISSIONS_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1">
+            COMMISSIONS </a><br>
+            
+            
+            <a href="ART_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1">
+            ART </a><br>
+            
+            
+            <a href="DESIGNS_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            DESIGNS </a><br>
+            
+            
+            <a href="QUEUE_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            QUEUE </a><br>
+            
+            
+            <a href="DEVIANTART_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            DEVIANTART </a><br>
+            
+            
+            <a href="DEVIANTART_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            TUMBLR </a><br>
+            
+            
+            <a href="DEVIANTART_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            INSTRAGRAM </a><br>
+            
+            
+            <a href="DEVIANTART_LINK" style="margin-bottom:1px; color:#6ac4ff"> <img src="https://i.imgur.com/mJogEZi.gif" class="mt-n1"> 
+            TWITTER </a><br>
+            
+            
+            </div>
+            <div class="my-1" style="border-bottom:double black;"></div>
+        </div>
+        <!--==========
+        [ END LINK ]
+        ===========-->
+        
+        
+        
+        <!--==========
+        [ CREDIT ]
+        ===========-->
+        <div class="card mt-2 text-left mb-lg-0 mb-sm-5" style="font-size:.9rem; background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <a href="https://toyhou.se/ghoulipede" class="text-center" style="font-size:1.1rem; color:#282525"> CODE BY GHOULIPEDE</a>
+        </div>
+        <!--==========
+        [ END CREDIT ]
+        ===========-->
+ 
+ 
+    </div>
+    <!--==========
+    [ END LEFT COLUMN ]
+    ===========-->
+ 
+ 
+ 
+    <!--==========
+    [ CENTER COLUMN ]
+    ===========-->
+    <div class="col-lg-6 px-lg-1">
+    
+    
+        
+        <!--==========
+        [ USERNAME ]
+        ===========-->
+        <div class="text-center mt-lg-n5" style="font-size:3.5rem; text-shadow: -1px 1px 0px #6ac4ff; background:white; margin:10px 10%; border-radius: 25px 0px; border:1px solid #282525">
+        
+        USERNAME
+    
+        </div>
+        <!--==========
+        [ END USERNAME ]
+        ===========-->
+    
+    
+        <!--==========
+        [ ABOUT ]
+        ===========-->
+        <div class="card mt-1" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        
+        
+            <p class="ml-3 mt-1 text-center" style="letter-spacing:2px; text-transform:uppercase; font-size:1.3rem; z-index:1000">
+            
+            NAME // PRONOUNS // ETC
+            
+            </p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        
+ 
+            <div class="row no-gutters"><div class="px-3" style="height:125px; overflow-y:auto; ">
+            <p class="mb-1">
+                
+            Write a bit about yourself here! This box scrolls, so don't worry about making it too long. In fact, can you even come up with enough about yourself to fill this thing? I always have a hard time knowing what to say. I'm sure you can manage, though! I made the font extra big just to be safe!
+                
+            <p>        
+            </div></div>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        </div>
+        <!--==========
+        [ END ABOUT ]
+        ===========-->
+ 
+ 
+        <!--==========
+        [ GENERAL LIKES ]
+        ===========-->
+        <div class="card mt-2" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <span>
+        <p class="text-left" style="font-size:1.1rem;"><img src="https://i.imgur.com/hA8AFbB.gif" class="mx-1">STUFF I WONT SHUT UP ABOUT</p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+            
+            
+        <div style="overflow-y:auto; height:50px">
+            
+        // a thing you like
+        // maybe a color
+        // or an animal
+        // or a hobby
+        // or a genre
+        // or an object
+        // or an aesthetic
+        // or something else
+        //
+        
+        </div>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        </span></div>
+        <!--==========
+        [ END GENERAL LIKES ]
+        ===========-->
+ 
+ 
+        <!--==========
+        [ MEDIA LIKES ]
+        ===========-->
+        <div class="card mt-2 text-right" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <span>
+        <p class="" style="font-size:1.1rem;">MEDIA THAT MAKES ME SO NORMAL<img src="https://i.imgur.com/Wrfsh6C.gif" class="mx-1"></p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        
+        
+        <div style="overflow-y:auto; height:50px">
+            
+        // some media you like
+        // maybe a show
+        // or an movie
+        // or a game
+        // or a book series
+        // or a podcast
+        // or something else
+        //
+        
+        </div>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        </span></div>
+        <!--==========
+        [ END MEDIA LIKES ]
+        ===========-->
+    
+    
+        <!--==========
+        [ CHARACTER LIKES ]
+        ===========-->
+        <div class="card mt-2" style="line-height:1.3; background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <span>
+        <p class="text-left" style="font-size:1.1rem;"><img src="https://i.imgur.com/pVTc4LW.gif" class="mx-1">CRINGEFAILURES THAT ARE JUST LIKE ME FR</p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+            
+            
+        <div class="text-center mt-2 mx-lg-5 justify-content-between">
+            
+        <span class="tooltipster" title="CHARACTER (MEDIA)">
+        <img src="CHARACTER_IMAGE_LINK" style="width:75px"></span>
+        
+        <span class="tooltipster" title="CHARACTER (MEDIA)">
+        <img src="CHARACTER_IMAGE_LINK" style="width:75px"></span> 
+        
+        <span class="tooltipster" title="CHARACTER (MEDIA)">
+        <img src="CHARACTER_IMAGE_LINK" style="width:75px"></span>
+        
+        <span class="tooltipster" title="CHARACTER (MEDIA)">
+        <img src="CHARACTER_IMAGE_LINK" style="width:75px"></span>
+        
+        <span class="tooltipster" title="CHARACTER (MEDIA)">
+        <img src="CHARACTER_IMAGE_LINK" style="width:75px"></span>
+        
+            
+        </div>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        </span></div>
+        <!--==========
+        [ CHARACTER LIKES ]
+        ===========-->
+    
+            
+          
+    
+    
+ 
+<!--END FADED BOX LEFT COLUMN--></div>
+    <!--==========
+    [ END CENTER COLUMN ]
+    ===========-->
+ 
+ 
+ 
+    <!--==========
+    [ RIGHT COLUMN ]
+    ===========-->
+    <div class="col-lg-3 pl-lg-1">
+ 
+ 
+        <!--==========
+        [ FEATURED CHARACTER ]
+        ===========-->
+        <div class="card mt-2" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+    
+    
+        <div class="text-center light" style="overflow-y:auto; overflow-x:hidden; max-height:175px;">
+    
+        
+            HAVE YOU SEEN HER?<br>
+            
+            <a href="CHARACTER_LINK"><img src="CHARACTER_IMAGE" style="max-width:105px; width:100%; margin:5px; border:black 1px solid"></a>
+            
+            <br>now you have :)
+        
+            </div>
+            
+            
+        </div>    
+        <!--==========
+        [ END FEATURED CHARACTER ]
+        ===========-->
+ 
+    
+        <!--==========
+        [ FRIENDS ]
+        ===========-->
+        <div class="card mt-2" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+        <p class="text-left" style="font-size:1.1rem;"><img src="https://i.imgur.com/AhrTBS2.gif" class="mx-1">FRIENDS</p>
+        
+        
+        <div class="my-1" style="border-bottom:double black;"></div>
+        <div class="mx-auto text-center" style="overflow-y:auto; overflow-x:hidden; height:75px;">
+        
+                
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/mhpbu8G.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/MTzfMeK.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/XTanWXg.gif">NAME</a>
+            
+            <br>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/TrbZhtv.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/c15Fx3x.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/8WJGb2a.gif">NAME</a>
+            
+            <br>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/9JRTuIG.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/L4p24aS.gif">NAME</a>
+            
+            <a href="FRIEND_LINK" style="color:#6ac4ff; border:#6ac4ff solid 1px"><img src="https://i.imgur.com/oLoJoPR.gif">NAME</a>
+            
+        
+        </div>
+        <div class="my-1" style="border-bottom:double black;"></div></div>
+        <!--==========
+        [ END FRIENDS ]
+        ===========-->
+    
+    
+        <!--==========
+        [ BLINKIES ]
+        ===========-->
+        <div class="card mt-2" style="background-color:white; color:black; border:1px solid #282525; padding:5px;">
+    
+    
+        <div class="text-center light" style="overflow-y:auto; overflow-x:hidden; max-height:275px;">
+        
+        <img src="https://i.imgur.com/rl5K5qr.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/YaJAeF3.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/fFkzied.gif" style="margin:1px; max-width:150px">
+        
+        <img src="https://i.imgur.com/pg0ZPyd.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/R6C98Hv.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/sHFShbT.gif" style="margin:1px; max-width:150px">
+        
+        <img src="https://i.imgur.com/SIpq4uS.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/2t6c3xd.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/FixgaCl.gif" style="margin:1px; max-width:150px">
+        
+        <img src="https://i.imgur.com/Gp9bLCG.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/OCftTqR.gif" style="margin:1px; max-width:150px">
+        <img src="https://i.imgur.com/CNaBs7n.gif" style="margin:1px; max-width:150px">
+        
+        </div>
+       
+       
+       </div>
+       <!--==========
+        [ END BLINKIES ]
+        ===========-->
+ 
+   
+    </div>
+    <!--==========
+    [ END RIGHT COLUMN ]
+    ===========-->
+ 
+ 
+</div>
