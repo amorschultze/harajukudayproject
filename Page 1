@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<!--------- Background Image -------------
+Replace the URL with a image url/address
+it looks best with a repeating tile background
+------------------------------------------->
+<div class="row no-gutters col-12 mx-auto p-1" style="max-width:600px; background-image:url(
+https://pagedeco.carrd.co/assets/images/gallery28/55715d6d.jpg?v=12c7c0a1
+);font-weight:100; font-family:times new roman; font-size:.9em;  color:#e871b1; border-radius:1em">
+<div class="col-sm-4 my-auto p-2">
+ 
+<!------------ Avatar/Icon -----------------
+Replace the URL with a image url/address
+------------------------------------------->
+<div class="col-12 mx-auto mb-2 rounded" style="background-size:cover; background-image:url(
+https://64.media.tumblr.com/a08c61c3e328942045605fc18997b611/b69b6c02e166ba94-1e/s540x810/5d91a88729a7910e66715a9d40e9b0260debedb4.jpg
+); width:110px; height:110px;"></div>
+ 
+<!------- Basic Character Info -------------
+You can remove the rows you don't want by deleting from one <div> to the next </div>.
+Each row is seperated by spaces
+ 
+You can change the style of the middle lines by replacing the word dotted found in this chunk of text
+    style="border-bottom:1px dotted #FF7CC2"
+dotted can be changed to any of the border styles found here https://www.w3schools.com/css/css_border.asp
+such as
+    solid   dashed  double
+------------------------------------------->
+<div class="card col-12 border-0 p-1" style="background:#FFF; border-radius:.5em">
+    
+<!----- Top Image Divider ------
+Replace the URL with a image url/address
+Delete this section if you don't want it
+------------------------------->
+<span class="m-auto">
+    <img src="https://gifcity.carrd.co/assets/images/gallery46/f59de0fc.gif?v=a5c82efa">
+</span>
+<!----- Divider end ----->
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Name
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Content Content
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Age
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    # years
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Pronouns
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Pro / nouns
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Species/Race
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Content
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Height
+</span>
+<hr class="col mx-1 my-auto" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Content
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Gender
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Content
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Sexuality
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    Content
+</span></div>
+ 
+<div class="justify-content-between"><span class="my-auto">
+    Status
+</span>
+<hr class="col my-auto mx-1" style="border-bottom:1px dotted #FF7CC2"><span class="my-auto">
+    <a href="URL_HERE" style="color:#CF0000">
+        Taken
+    </a>
+</span></div>
+ 
+<!----------Copy and paste above here for more-------------->
+ 
+<!----- Bottom Image Divider ------
+Replace the URL with a image url/address
+Delete this section if you don't want it
+----------------------------------->
+<span class="m-auto">
+    <img src="https://gifcity.carrd.co/assets/images/gallery46/587daf49.gif?v=d32b0bb8">
+</span>
+<!----- Divider end ----->
+ 
+</div></div>
+ 
+<div class="col-sm-8 row no-gutters my-auto">
+ 
+<!--------- Blinkies Section -------------
+Replace the URLs with a image url/address
+copy and paste the line of code for more blinkies
+------------------------------------------->
+<div class="col-12 p-2"><div class="card border-0 p-1 text-center" style="background:#FFF; border-radius:.5em"><span>
+     <img src="https://gifcity.carrd.co/assets/images/gallery22/6f08843d.gif?v=d32b0bb8">
+     <img src="https://gifcity.carrd.co/assets/images/gallery22/e9a744e4.gif?v=d32b0bb8">
+     <img src="https://gifcity.carrd.co/assets/images/gallery22/d6b82bc4.gif?v=d32b0bb8">
+     <img src="https://gifcity.carrd.co/assets/images/gallery22/8ea6abd0.gif?v=d32b0bb88">
+     <img src="https://gifcity.carrd.co/assets/images/gallery22/18c0ea12.gif?v=d32b0bb81">
+     
+     <!-----Copy and paste above here for more------>
+</span></div></div>
+ 
+<!--------- About Section -------------
+Write about your character here!
+This box does not scroll, keep it somewhat short
+------------------------------------------->
+<div class="col-12 p-2"><div class="card border-0 p-1 text-center" style="background:#FFF; border-radius:.5em"><span>
+    <!---- Image Replace the URL--->
+    <img src="https://gifcity.carrd.co/assets/images/gallery46/56b85645.gif?v=a5c82efa">
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio.</p>
+    <p> Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+    <!-----Copy and paste above here for more paragraphs------>
+</span></div></div>
+ 
+<!--------- Stamps Section -------------
+Replace the URLs with a image url/address
+copy and paste the line of code for more stamps
+------------------------------------------->
+<div class="col-12 p-2"><div class="card border-0 p-1 text-center" style="background:#FFF; border-radius:.5em"><span>
+     <img src="https://pagedeco.carrd.co/assets/images/gallery34/31c28298.png?v=12c7c0a1">
+     <img src="https://pagedeco.carrd.co/assets/images/gallery34/14af9bc7.png?v=12c7c0a1">
+     <img src="https://pagedeco.carrd.co/assets/images/gallery34/c543625a.png?v=12c7c0a1">
+     <img src="https://pagedeco.carrd.co/assets/images/gallery34/53202995.png?v=12c7c0a1">
+     <img src="https://pagedeco.carrd.co/assets/images/gallery34/0b49888d.png?v=12c7c0a1">
+     <!-----Copy and paste above here for more------>
+</span></div></div>
+ 
+</div></div>
+ 
+<!--------CREDIT DO NOT REMOVE----------->
+<div class="text-center mt-1">
+<a  href="/LeafJelly"> <i class="far fa-code text-muted fa-sm tooltipster" title="Code by LeafJelly"></i></a>
+</div>
